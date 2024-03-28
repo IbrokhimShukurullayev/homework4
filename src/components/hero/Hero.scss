@@ -1,0 +1,82 @@
+#hero {
+  padding-top: 104px;
+  min-height: 680px;
+  margin-bottom: 20px;
+  .hero {
+    &__title {
+      font-size: 64px;
+      text-align: center;
+      letter-spacing: -3px;
+      color: white;
+    }
+    &__caption {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 16px;
+      color: white;
+    }
+    &__link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+    }
+    &__body {
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 21px;
+      line-height: 1.19048;
+      font-weight: 400;
+      letter-spacing: 0.011em;
+      color: #6e6e73;
+    }
+  }
+}
+
+.mini__banner__row {
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.mini__banner {
+  width: 49%;
+  height: 580px;
+  padding: 60px 50px 0;
+  background-color: black;
+  text-align: center;
+  &__title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+  }
+  &__version {
+    display: inline-block;
+    color: red;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+  }
+  &__description {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+}
+
+.texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
