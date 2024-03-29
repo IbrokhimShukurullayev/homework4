@@ -1,4 +1,5 @@
-import React from "react";
+import React, { memo } from "react";
+import { NavLink } from "react-router-dom"
 
 import { NAV_ITEMS } from "../../static";
 
@@ -9,13 +10,7 @@ import { MdOutlineShoppingBag } from "react-icons/md";
 import "./Header.scss";
 
 function Header() {
-  const navItem = NAV_ITEMS.map((el, inx) => {
-    return (
-      <li key={inx}>
-        <a href="#index">{el}</a>
-      </li>
-    );
-  });
+  const navItem = NAV_ITEMS?.map(date => <NavLink key={date.id} to={date.url}>{date.name}</NavLink>)
   return (
     <header>
       <nav className="container nav">
@@ -33,4 +28,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default memo(Header)

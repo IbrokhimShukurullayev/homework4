@@ -1,0 +1,41 @@
+#iphone {
+  padding-top: 80px;
+}
+#iphone .iphone__discount {
+  width: 100%;
+  text-align: center;
+  padding: 12px 0;
+  background-color: #f5f5f7;
+}
+#iphone .iphone__discount p {
+  font-size: 12px;
+  color: #1d1d1f;
+}
+
+#iphone-video {
+  padding-top: 70px;
+}
+#iphone-video .iphone__video__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 60px;
+}
+#iphone-video .iphone__video__header h1 {
+  font-size: 72px;
+}
+#iphone-video .iphone__video__header p {
+  font-size: 28px;
+  font-weight: 500;
+}
+#iphone-video .iphone__video__video video {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
